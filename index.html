@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title> Object Finder Web App </title>
+</head>
+
+<body>
+    <h3> Object Finder! </h3>
+    <br>
+    <h4> When the camera senses an animal, an alarm will be played. </h4>
+    <br>
+    <input type="text" id="object_name">
+    <br>
+    <br>
+    <button onclick="start()"> Start </button>
+    <br>
+    <br>
+    <h4 id="model_status"> </h4>
+    <br>
+    <h4 id="object_status"> </h4>
+    <br>
+    <br>
+    <script src="main.js"></script>
+</body></html>

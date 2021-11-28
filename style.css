@@ -1,0 +1,9 @@
+body {
+    background-color: lightseagreen;
+    text-align: center;
+}
+
+canvas {
+    border: solid 5px white;
+    box-shadow: 5px 5px 5px white;
+}
